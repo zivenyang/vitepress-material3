@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.2.96",
+    "vitepress": "^1.0.0-rc.10",
+    "vue": "^3.3.4",
+    "vuetify": "^3.3.15"
+  }
+}
