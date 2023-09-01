@@ -9,4 +9,5 @@ export default defineConfig({
       noExternal: ['vuetify'],
     },
   },
+  base: '/vitepress-material3/'
 })
