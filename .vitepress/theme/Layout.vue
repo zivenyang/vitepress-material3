@@ -63,7 +63,7 @@ const oneUpdateRail = (e: boolean) => {
               <div class="text-h2 font-weight-regular" style="line-height:1.25">Posts</div>
               <v-row>
                 <v-col v-for="post in posts" :key="post.id" cols="12" sm="4">
-                  <v-card rounded="xl" v-ripple class="post-card" :href="post.url">
+                  <v-card rounded="xl" v-ripple class="post-card" :href="site.base + post.url">
                     <v-img cover height="200" class="rounded-xl" :src="post.cover"></v-img>
                     <v-card-title>{{ post.title }}</v-card-title>
                     <v-card-text>
