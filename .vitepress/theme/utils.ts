@@ -1,6 +1,8 @@
-import { ContentData } from 'vitepress'
+import { useData, ContentData } from 'vitepress'
 import { Post } from "./types/common"
 import { BlogThemeConfig, Tag } from './types/config'
+
+const { site } = useData()
 
 export function formatTime(
   timestamp: number,
@@ -26,7 +28,7 @@ export function getPostFromContentData(post: ContentData): Post {
     create: post.frontmatter.create ? new Date(post.frontmatter.create).getTime() : Date.now(),
     category: post.frontmatter.category,
     tags: post.frontmatter.tags ?? [],
-    url: post.url.replace('index.html', ''),
+    url: site.base + post.url.replace('index.html', ''),
     comment: !!(post.frontmatter.comment ?? true),
   }
 }
