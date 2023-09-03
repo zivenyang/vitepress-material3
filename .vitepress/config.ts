@@ -25,6 +25,7 @@ export default defineConfig({
     // options for @mdit-vue/plugin-toc
     // https://github.com/mdit-vue/mdit-vue/tree/main/packages/plugin-toc#options
     toc: {        
-      level: [1, 2] },
+      level: [1, 2] 
+    },
   }
 })

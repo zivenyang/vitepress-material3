@@ -10,6 +10,7 @@
     "@giscus/vue": "^2.3.0",
     "@mdi/font": "^7.2.96",
     "markdown-it-anchor": "^8.6.7",
+    "markdown-it-container": "^3.0.0",
     "sass": "^1.66.1",
     "vite-plugin-vuetify": "^1.0.2",
     "vitepress": "^1.0.0-rc.10",

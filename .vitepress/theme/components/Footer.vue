@@ -39,7 +39,7 @@
                 <v-row no-gutters class="fill-height align-middle">
                     <v-col class="text-center">
                         <div>Released under the MIT License.</div>
-                        <div>Copyright © 2019-present Ziwen Yang</div>
+                        <div>Copyright © 2023-present Ziwen Yang</div>
                     </v-col>
                 </v-row>
             </v-container>
