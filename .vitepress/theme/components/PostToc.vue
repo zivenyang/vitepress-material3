@@ -1,7 +1,7 @@
 <template>
     <div class="toc">
         <div class="text-subtitle-2 pl-4 pt-2 pd-2">
-            One this page
+            On this page
         </div>
         <div class="text-h6 pl-4 pt-2 pd-2">
             {{ title }}
