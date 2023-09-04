@@ -33,4 +33,7 @@ const active = ref(0);
 .v-card--variant-elevated{
     background-color: unset;
 }
+.v-card--variant-outlined{
+    border-color: rgb(226 226 227);
+}
 </style>

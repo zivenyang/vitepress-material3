@@ -5,7 +5,6 @@ cover: https://lh3.googleusercontent.com/aiJojq_gpPLqLhU0PZH6Dog-OjIMti_hiclF_6o
 description: |
   This page demonstrates some of the built-in markdown extensions provided by VitePress.
 ---
----
 
 # Markdown Extension Examples
 
