@@ -1,7 +1,7 @@
 <template>
     <v-container class="content-container vp-doc">
-        <v-row>
-            <v-col>
+        <v-row no-gutters>
+            <v-col cols="2">
                 <PostToc :data="data.page.value.headers" :active="active" :title="data.page.value.title"></PostToc>
             </v-col>
             <v-col class="content">
