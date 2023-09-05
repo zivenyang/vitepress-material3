@@ -4,11 +4,13 @@ import vuetify from './vuetify'
 import './style.scss'
 import './styles/markdown.scss'
 import './styles/vars.scss'
+import { VueMasonryPlugin } from "vue-masonry";
 
 export default {
   Layout,
   enhanceApp({ app, router, siteData }) {
     app.use(vuetify)
+    app.use(VueMasonryPlugin )
   }
 }
 

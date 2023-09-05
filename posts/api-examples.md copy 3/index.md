@@ -5,6 +5,10 @@ create: 2023-05-07T20:40:31+08:00
 cover: https://lh3.googleusercontent.com/51moDkmVWptBFXRReuACKocS_fsOoYtfT-C78onEUKeRr7ky4l_ZsuZMK2AnE7-MPRbLzcKTAIFmNyyN7ACo0-eygmXaGeR0ItYtRcYNE8-_L8RHqkA=w960
 description: |
   This page demonstrates usage of some of the runtime APIs provided by VitePress.
+  This page demonstrates usage of some of the runtime APIs provided by VitePress.
+  This page demonstrates usage of some of the runtime APIs provided by VitePress.
+  This page demonstrates usage of some of the runtime APIs provided by VitePress.
+tags: [api, examples]
 ---
 
 # Runtime API Examples

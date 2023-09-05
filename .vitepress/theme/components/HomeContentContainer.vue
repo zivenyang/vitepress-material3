@@ -4,7 +4,7 @@
             <div class="section-head">
                 <div class="text-h2 font-weight-regular" style="line-height:1.25">Posts</div>
             </div>
-            <v-row>
+            <v-row v-masonry>
                 <v-col v-for="post in posts" :key="post.id" cols="12" sm="4">
                     <PostCard :post="post"></PostCard>
                 </v-col>

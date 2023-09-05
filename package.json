@@ -17,5 +17,8 @@
     "vue": "^3.3.4",
     "vuetify": "^3.3.15",
     "webfontloader": "^1.6.28"
+  },
+  "dependencies": {
+    "vue-masonry": "^0.16.0"
   }
 }
