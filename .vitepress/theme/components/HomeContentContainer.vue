@@ -4,11 +4,11 @@
             <div class="section-head">
                 <div class="text-h2 font-weight-regular" style="line-height:1.25">Posts</div>
             </div>
-            <v-row v-masonry>
-                <v-col v-for="post in posts" :key="post.id" cols="12" sm="4">
-                    <PostCard :post="post"></PostCard>
-                </v-col>
-            </v-row>
+            <masonry-wall :items="posts" :ssr-columns="1" :column-width="300" :gap="16">
+                <template #default="{ item, index }">
+                    <PostCard :post="item"></PostCard>
+                </template>
+            </masonry-wall>
         </div>
     </v-container>
 </template>
