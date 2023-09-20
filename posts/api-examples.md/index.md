@@ -1,6 +1,6 @@
 ---
 outline: deep
-title: Runtime API Examples
+title: Runtime API Examples 1
 create: 2023-05-07T20:40:31+08:00
 cover: https://lh3.googleusercontent.com/51moDkmVWptBFXRReuACKocS_fsOoYtfT-C78onEUKeRr7ky4l_ZsuZMK2AnE7-MPRbLzcKTAIFmNyyN7ACo0-eygmXaGeR0ItYtRcYNE8-_L8RHqkA=w960
 description: |
@@ -14,7 +14,7 @@ prev: 'Get Started | Markdown'
 
 [[toc]]
 
-# Runtime API Examples
+# Runtime API Examples 1
 
 This page demonstrates usage of some of the runtime APIs provided by VitePress.
 

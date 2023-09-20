@@ -1,5 +1,5 @@
 ---
-title: Markdown Extension Examples
+title: Markdown Extension Examples 1
 create: 2023-05-07T20:40:31+08:00
 cover: https://lh3.googleusercontent.com/aiJojq_gpPLqLhU0PZH6Dog-OjIMti_hiclF_6oqxucGuvywn_AEtu2Qrk2f4WxEhRWMjXkz8qXpTCGoj5TZ0DUCEZ5UIXnXTSIu_7ndg2dTNmQbdkCO=w960
 description: |
@@ -7,7 +7,7 @@ description: |
 tags: [markdow, examples]
 ---
 
-# Markdown Extension Examples
+# Markdown Extension Examples 1
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
