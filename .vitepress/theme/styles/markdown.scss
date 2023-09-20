@@ -1,7 +1,7 @@
 // https://github.com/vuejs/vitepress/tree/main/src/client/theme-default/styles/components
 .custom-block {
   border: 1px solid transparent;
-  border-radius: 8px;
+  border-radius: 24px;
   padding: 16px 16px 8px;
   line-height: 24px;
   font-size: var(--vp-custom-block-font-size);
@@ -162,7 +162,7 @@
   .vp-code-group .tabs {
     margin-right: 0;
     margin-left: 0;
-    border-radius: 8px 8px 0 0;
+    border-radius: 24px 24px 0 0;
   }
 }
 
@@ -193,7 +193,7 @@
   left: 8px;
   z-index: 1;
   height: 2px;
-  border-radius: 2px;
+  border-radius: 24px;
   content: "";
   background-color: transparent;
   transition: background-color 0.25s;
@@ -392,7 +392,8 @@ html:not(.dark) .vp-code-dark {
 
 .vp-doc table {
   display: block;
-  border-collapse: collapse;
+  // border-collapse: collapse;
+  border-collapse: separate;
   margin: 20px 0;
   overflow-x: auto;
 }
@@ -424,6 +425,21 @@ html:not(.dark) .vp-code-dark {
   font-size: 14px;
 }
 
+.vp-doc tr:first-child th:first-child {
+  border-top-left-radius: 24px;
+}
+
+.vp-doc tr:first-child th:last-child {
+  border-top-right-radius: 24px;
+}
+.vp-doc tr:last-child td:first-child {
+  border-bottom-left-radius: 24px;
+}
+
+.vp-doc tr:last-child td:last-child {
+  border-bottom-right-radius: 24px;
+}
+
 /**
  * Decorational elements
  * -------------------------------------------------------------------------- */
@@ -453,7 +469,7 @@ html:not(.dark) .vp-code-dark {
 
 .vp-doc .custom-block div[class*="language-"] {
   margin: 8px 0;
-  border-radius: 8px;
+  border-radius: 24px;
 }
 
 .vp-doc .custom-block div[class*="language-"] code {
@@ -463,7 +479,7 @@ html:not(.dark) .vp-code-dark {
 
 .vp-doc .custom-block .vp-code-group .tabs {
   margin: 0;
-  border-radius: 8px 8px 0 0;
+  border-radius: 24px 24px 0 0;
 }
 
 /**
@@ -477,7 +493,7 @@ html:not(.dark) .vp-code-dark {
 }
 
 .vp-doc :not(pre) > code {
-  border-radius: 4px;
+  border-radius: 24px;
   padding: 3px 6px;
   background-color: var(--vp-code-bg);
   transition: color 0.25s, background-color 0.5s;
@@ -509,14 +525,14 @@ html:not(.dark) .vp-code-dark {
 @media (min-width: 640px) {
   .vp-doc div[class*="language-"],
   .vp-block {
-    border-radius: 8px;
+    border-radius: 24px;
     margin: 16px 0;
   }
 }
 
 @media (max-width: 639px) {
   .vp-doc li div[class*="language-"] {
-    border-radius: 8px 0 0 8px;
+    border-radius: 24px 0 0 24px;
   }
 }
 
@@ -524,6 +540,11 @@ html:not(.dark) .vp-code-dark {
 .vp-doc div[class$="-api"] + div[class*="language-"],
 .vp-doc div[class*="language-"] + div[class$="-api"] > div[class*="language-"] {
   margin-top: -8px;
+}
+
+.vp-doc div[class*="language-"] > span.lang {
+  top: 8px;
+  right: 20px;
 }
 
 .vp-doc [class*="language-"] pre,
@@ -663,7 +684,7 @@ html:not(.dark) .vp-code-dark {
   right: 12px;
   z-index: 3;
   border: 1px solid var(--vp-code-copy-code-border-color);
-  border-radius: 4px;
+  border-radius: 24px;
   width: 40px;
   height: 40px;
   background-color: var(--vp-code-copy-code-bg);
@@ -690,7 +711,7 @@ html:not(.dark) .vp-code-dark {
 .vp-doc [class*="language-"] > button.copy.copied,
 .vp-doc [class*="language-"] > button.copy:hover.copied {
   /*rtl:ignore*/
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 24px 24px 0;
   background-color: var(--vp-code-copy-code-hover-bg);
   background-image: var(--vp-icon-copied);
 }
@@ -707,7 +728,7 @@ html:not(.dark) .vp-code-dark {
   border: 1px solid var(--vp-code-copy-code-hover-border-color);
   /*rtl:ignore*/
   border-right: 0;
-  border-radius: 4px 0 0 4px;
+  border-radius: 24px 0 0 24px;
   padding: 0 10px;
   width: fit-content;
   height: 40px;
@@ -784,12 +805,12 @@ html:not(.dark) .vp-code-dark {
  * allied in onMounted` hook and we can't use socped style.
  */
 .vp-sponsor {
-  border-radius: 16px;
+  border-radius: 24px;
   overflow: hidden;
 }
 
 .vp-sponsor.aside {
-  border-radius: 12px;
+  border-radius: 24px;
 }
 
 .vp-sponsor-section + .vp-sponsor-section {
